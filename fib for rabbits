@@ -1,0 +1,10 @@
+def fib(months):
+    assert type(months)==int and months>=0
+    if months==1 or months==0:
+        return 1
+    else:
+        return fib(months-1)+fib(months-2)
+        
+#this is for the population of rabbits in a community. I learned this on the mit opensource course.
+#I am interested in other ways to use this
+    
